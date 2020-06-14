@@ -1,0 +1,66 @@
+html{scroll-behavior: smooth; font-family: 'Noto Sans KR', sans-serif;}
+header,section,body,h1,h2,h3,p,div,nav,ul,li{margin: 0; padding: 0;}
+nav{margin: 0; padding:0;border-bottom: 0.5px solid lightgray; border-top: 1px solid lightgray
+;border-bottom: 1px solid lightgray}
+ul{background: white; width: 960px ;height: 50px; text-decoration: none; 
+	 margin-left: auto; margin-right: auto;}
+li{background: white;  list-style-type: none; width: 130px; display: inline;
+	height: 50px; text-align: center; line-height: 50px; float:left; color: white; }
+ul li a{display: block; text-decoration: none;margin-left: auto; margin-right: auto;
+	 color: gray; font-weight: 700}
+ul li a:hover{font-weight: 700; transition: all 0.5s;}
+h2{font-size: 2rem; text-align: center; line-height: 1.8;}
+h3{font-size: 1.4rem; text-align: center; font-weight: 500;}
+	.row{width: 1200px; margin: auto; position: relative; }
+	.flexbox{display: flex;}
+	.col-1{width: 100px;}
+	.col-2{width: 200px;}
+	.col-3{width: 300px;}
+	.col-4{width: 400px;}
+	.col-5{width: 500px;}
+	.col-6{width: 600px;}
+	.col-7{width: 700px;}
+	.col-8{width: 800px;}
+	.col-9{width: 900px;}
+	.col-10{width: 1000px;}
+	.col-11{width: 1100px;}
+	.col-12{width: 1200px;}
+	.h-300{height: 300px;}
+	.h-400{height: 400px;}
+	.h-500{height: 500px;}
+	.h-700{height: 700px;}
+	.h-900{height: 900px;}
+	.h-1000{height: 1000px;}
+	.h-1200{height: 1200px;}
+	.p-50{padding: 50px;}
+	.p-100{padding: 100px;}
+	.m-auto{margin: auto;}
+	.m-10{margin: 10px;}
+	.m-50{margin: 50px;}
+	.mt-20{margin-top: 20px;}
+	.mt-50{margin-top: 50px;}
+	.mt-100{margin-top: 100px;}
+	.mt-150{margin-top:150px;}
+	.mt-200{margin-top: 200px;}
+	.mt-250{margin-top:250px;}
+	.mb-10{margin-bottom:10px; }
+	.mb-20{margin-bottom:20px; }
+	.mb-30{margin-bottom:30px; }
+	.mb-50{margin-bottom:50px; }
+	.mb-100{margin-bottom:100px;}
+	.pt-10{padding-top: 10px;}
+	.pt-20{padding-top: 20px;}
+	.pt-50{padding-top: 50px;}
+	.pt-200{padding-top: 200px;}
+	.muzi{width: 200px; height: 50px;}
+	.bg-back{background-color: #fffdf3;}
+	.bg-main{background: url('../img/main.png');background-size: 100% auto;}
+	.botton{display: block; width:300px; height:50px; 
+		 background: #6e9eea; text-align: center; 
+		line-height: 50px; text-decoration: none;}
+	.botton:hover{background: #CBDEF4; transition: all 0.5s; color: black;}
+	.shape{position: absolute; left: 50%; margin-left: -40px; top: 100px; }
+	.img_1{width: 700px; height: auto; position: absolute; 
+		left: 50%; margin-left: -350px; top: 350px;}
+#abs_1{top: 100px;}
+#abs_2{position: absolute;top: 1100px;left: 50%;margin-left: -150px;}
